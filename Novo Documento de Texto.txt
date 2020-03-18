@@ -1,0 +1,40 @@
+package quadrado;
+
+public class contquad {
+	double base;
+	double altura;
+	double area;
+	void area() {
+		area = altura*base;
+	
+	}
+}
+
+-------------------------------------------------------------------------------
+
+package quadrado;
+
+public class principal {
+	public static void main (String [] args){
+	contquad Calculo = new contquad();
+	Calculo.altura= 17.2;
+	Calculo.base= 17.2;
+	Calculo.area();
+	System.out.println("O Quadrado 1 é " + Calculo.area);
+}
+}
+	
+----------------------------------------------------------------------------------
+
+package quadrado;
+
+public class principal2 {
+	public static void main (String [] args){
+	contquad Calculo = new contquad();
+	Calculo.altura= 12.2;
+	Calculo.base= 7.2;
+	Calculo.area();
+	System.out.println("O Quadrado 2 é " + Calculo.area);
+}
+}
+	
